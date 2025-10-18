@@ -1,0 +1,11 @@
+installing 
+npm create vite@latest
+=>Write project name
+=>Select framwork->react
+=>Select Lnaguage-> Java Script
+
+Alternatively,
+you can use below prompt if you wanana installing react as clone 
+
+npx create-react-app < react name>
+
