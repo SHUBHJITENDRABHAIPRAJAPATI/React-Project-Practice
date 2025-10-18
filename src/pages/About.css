@@ -1,0 +1,108 @@
+.about {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.about h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.about > div {
+  margin-bottom: 2rem;
+}
+
+.time-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.time-display {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem 0;
+  font-family: 'Courier New', monospace;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.time-note {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.tech-list {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.tech-item {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #667eea;
+}
+
+.tech-item h4 {
+  margin: 0 0 0.5rem 0;
+  color: #667eea;
+}
+
+.tech-item p {
+  margin: 0;
+  color: #666;
+}
+
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.goal-item {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.goal-item:hover {
+  background: #667eea;
+  color: white;
+  transform: scale(1.05);
+}
+
+.goal-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.goal-item h3 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.goal-item p {
+  font-size: 0.9rem;
+  margin: 0;
+  opacity: 0.8;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
